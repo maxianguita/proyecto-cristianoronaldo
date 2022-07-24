@@ -8,7 +8,7 @@
 body {
   background-color: rgb(12, 12, 12);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-image: url(/imagenes/body3.jpeg);
+  background-image: url(https://www.xtrafondos.com/descargar.php?id=1827&resolucion=2560x1600);
   /* width: 100%;
   height: 100%; */
   background-repeat: no-repeat;
@@ -130,6 +130,8 @@ li a {
   padding: 20px;
   border-radius: 80%;
 }
+
+
 .articulo {
   display: flex;
   flex-direction: column-reverse;
