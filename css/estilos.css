@@ -9,8 +9,8 @@ body {
   background-color: rgb(12, 12, 12);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-image: url(https://www.xtrafondos.com/descargar.php?id=1827&resolucion=2560x1600);
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -26,6 +26,7 @@ header {
   padding: 12px;
   background-color: rgba(77, 63, 180, 0.247);
   color: rgb(238, 232, 232);
+  justify-content: space-between;
 }
 header a {
   color: aliceblue;
@@ -44,15 +45,24 @@ header a {
 h2 {
   color: beige;
   text-align: center;
-  padding: 12px;
+  padding: 40px;
+  font-size: 30px;
 }
-h2:hover {
-  color: blueviolet;
+
+/* h2:hover {
+   color: rgb(0, 0, 0); 
+} */
+.logo-cr7 {
+  display: flex;
+  justify-content: center;
 }
 .logo-cr7 img {
   width: 100px;
   height: 100px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo-1 {
@@ -61,7 +71,7 @@ h2:hover {
   height: 50px;
   width: 50px;
   margin: 90px;
-  color: rgb(16, 15, 15);
+  color: rgb(229, 12, 12);
   border: 76px;
 }
 
@@ -69,16 +79,21 @@ h2:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  padding: 15px 0px, 0px, 12px;
-  margin-top: 30px;
   color: rgb(13, 13, 13);
+  /* padding: 40px; */
 }
 
 .menu-1 {
   color: rgb(252, 247, 247);
   text-decoration: none;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 70px;
+}
+.menu-1 li {
+  color: white;
+  padding: 20px;
 }
 .menu-1 :hover {
   color: rgb(5, 5, 5);
@@ -87,6 +102,8 @@ li a {
   color: white;
   text-decoration: none;
   list-style: none;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 /* seccion de pagina  */
 
@@ -104,15 +121,15 @@ li a {
 }
 .div-titulo h1 {
   text-align: center;
-  color: rgb(253, 253, 253);
+  color: white;
   padding: 50px;
-  font-size: medium;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.div-titulo h1:hover {
+/* .div-titulo h1:hover {
   color: rgba(77, 63, 180, 0.755);
-}
+} */
 .div-titulo p {
   font-size: x-large;
   font-family: "Times New Roman", Times, serif;
@@ -130,7 +147,6 @@ li a {
   padding: 20px;
   border-radius: 80%;
 }
-
 
 .articulo {
   display: flex;
@@ -168,7 +184,7 @@ li a {
 }
 .div-titulo h1 {
   text-align: center;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
 }
 
 .div-img {
@@ -339,6 +355,16 @@ h3 {
   position: relative;
   right: 100px;
 }
+.input_ img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+/* contacto */
+.formulario__ {
+  padding: 130px;
+  color: #fff;
+}
 
 /* media querys */
 
@@ -365,18 +391,18 @@ h3 {
     width: 1200px;
   }
 }
-@media (max-width: 766px) {
+@media (max-width: 500px) {
   .logo-cr7 {
     display: none;
   }
   .formulario {
     display: none;
   }
-  .menu {
+  /* .menu {
     width: 100%;
     font-size: 18px;
     flex: auto;
-  }
+  } */
   .iconos-2 p {
     display: none;
   }
@@ -391,5 +417,25 @@ h3 {
     display: flex;
     padding-right: 130px;
     margin: 5px;
+  }
+  .menu-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .menu-1 li{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    align-items: flex-end;
+    padding: 2px;
+    padding-left: 120px;
+    margin-top: 1px;
+  }
+  nav {
+    padding: 10px 0 px;
+    padding-top: 10px;
   }
 }
