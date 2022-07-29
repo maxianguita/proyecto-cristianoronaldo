@@ -6,7 +6,7 @@
 /* pagina de inicio  */
 
 body {
-  background-color: rgb(12, 12, 12);
+  background-color: rgba(12, 12, 12, 0);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-image: url(https://www.xtrafondos.com/descargar.php?id=1827&resolucion=2560x1600);
   width: 100%;
@@ -141,11 +141,12 @@ li a {
   flex-direction: column;
 }
 .seccion-1 img {
-  width: 80%;
-  height: 80%;
+  /* width: 80%; */
+  height: 100%;
   margin-left: 50px;
-  padding: 20px;
-  border-radius: 80%;
+  padding: 50px;
+  border-radius: 28%;
+  object-fit: cover;
 }
 
 .articulo {
@@ -425,7 +426,7 @@ h3 {
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .menu-1 li{
+  .menu-1 li {
     display: flex;
     flex-direction: column;
     padding-left: 100px;
@@ -435,7 +436,29 @@ h3 {
     margin-top: 1px;
   }
   nav {
+    display: flex;
+    justify-content: left;
+    text-align: left;
     padding: 10px 0 px;
     padding-top: 10px;
   }
+}
+
+.card{
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 100px;
+  margin-bottom: 10px;
+  
+  }
+.card img {
+  object-fit: cover;
+  border-radius: 20%;
 }
