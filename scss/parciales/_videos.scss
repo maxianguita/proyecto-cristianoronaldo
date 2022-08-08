@@ -1,0 +1,28 @@
+/* VIDEOS  */
+.videos {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  width: auto;
+  margin: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.videos__columna {
+  margin: 8px;
+}
+
+.videos .contenedor {
+  display: grid;
+}
+
+.videos1 h2:hover {
+  color: rgba(77, 63, 180, 0.755);
+}

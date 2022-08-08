@@ -1,0 +1,124 @@
+/* BIOGRAFIA */
+.contenido-1 {
+  text-align: center;
+  margin: 100px;
+}
+
+.contenido-1 img {
+  width: 100%;
+  height: 100%;
+  margin: 50px;
+  padding-right: 50px;
+}
+
+.contenido-1 p {
+  font-size: small;
+  color: aliceblue;
+  text-align: center;
+}
+
+.contenido__bio {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contenido__bio p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.contenido__bio a {
+  color: #fff;
+  list-style: none;
+  font-size: xx-large;
+}
+
+.contenido__bio a:hover {
+  color: black;
+}
+
+.contenido__bio h5 {
+  color: rgba(254, 254, 254, 0.836);
+  font-size: 30px;
+  padding: 10px;
+}
+
+.tarjeta_1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 380px;
+}
+
+.tarjeta_2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 90px;
+}
+
+.tarjeta_3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 700px;
+}
+
+.tarjeta_4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.tarjeta_5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 600px;
+}
+
+.tarjeta_6 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 100px;
+  padding-bottom: 50px;
+}
+
+/* GALERIA DE IMAGENES  */
+h1 {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+}
+
+.contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cr7__columna img {
+  border: solid white 10px;
+}
+
+.cr7__columna {
+  margin: 5px;
+}
+
+.cr7 .contenedor {
+  display: grid;
+}
