@@ -1,0 +1,39 @@
+Box-Of-Hats.bemhelper
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    background-color: rgba(77, 63, 180, 0.247);
+    color: #eee8e8;
+    justify-content: space-between;
+  }
+  
+  header a {
+    color: aliceblue;
+    font-size: small;
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: smaller;
+    align-items: baseline;
+    color: #f0e7e7;
+  }
+  
+  h2 {
+    color: beige;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+  }
+  
+  .logo-cr7 {
+    display: flex;
+    justify-content: center;
+  }
