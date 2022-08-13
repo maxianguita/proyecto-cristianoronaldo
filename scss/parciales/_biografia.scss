@@ -1,5 +1,12 @@
 /* BIOGRAFIA */
 
+.contenido_1 {
+    display: flex;
+    h2 {
+        color: #fff;
+    }
+}
+
 .contenido-1 {
     text-align: center;
     margin: 100px;
@@ -12,6 +19,9 @@
         font-size: small;
         color: aliceblue;
         text-align: center;
+    }
+    h2 {
+        color: #fff;
     }
 }
 

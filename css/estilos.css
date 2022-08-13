@@ -144,7 +144,6 @@ footer .divp {
 footer .divp p {
     color: rgb(254, 254, 254);
     margin-top: 60px;
-    margin-right: 120px;
 }
 
 .divp p {
@@ -341,10 +340,21 @@ li a {
 
 /* BIOGRAFIA */
 
-.contenido-1 {
+.contenido_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido_1 h2 {
+    color: #fcf7f7;
+    text-align: center;
+}
+
+
+/* .contenido-1 {
     text-align: center;
     margin: 100px;
-}
+} */
 
 .contenido-1 img {
     width: 100%;
@@ -390,7 +400,7 @@ li a {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-left: 380px;
+    padding-bottom: 50px;
 }
 
 .tarjeta_2 {
@@ -406,7 +416,7 @@ li a {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-left: 700px;
+    margin-left: 400px;
 }
 
 .tarjeta_4 {
@@ -422,7 +432,7 @@ li a {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-left: 600px;
+    margin-left: 450px;
 }
 
 .tarjeta_6 {
@@ -595,24 +605,33 @@ h1 {
     .formulario {
         display: none;
     }
+    .contenedor {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 500px) {
     footer {
-        height: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
     }
     .iconos-2 {
         flex-direction: column;
         align-items: center;
     }
     .subtitulo h3 {
-        justify-content: flex-end;
-        padding-left: 50px;
-        margin-left: auto;
+        padding-right: 90px;
     }
     .divp p {
         color: white;
-        font-size: medium;
+        font-size: initial;
+    }
+    .logo {
+        display: none;
+    }
+    .contenedor {
+        flex-direction: column;
     }
 }
 
@@ -624,6 +643,15 @@ nav {
     padding-top: 10px;
 }
 
-.contenedor {
-    flex-direction: column;
+@media (min-width: 728px) {
+    .contenido__bio {
+        flex-direction: column;
+    }
+    .contenido_1 h2 {
+        text-align: center;
+    }
+    .tarjeta_1 {
+        flex-direction: column;
+        padding-top: 80px;
+    }
 }
