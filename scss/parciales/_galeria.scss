@@ -1,45 +1,32 @@
 /* GALERIA DE IMAGENES  */
+
 h1 {
-  font-size: 70px;
-  color: #fff;
-  text-align: center;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
 }
-
-@mixin sizes ( $width, $margin) {
-  width: $width;
-  margin: $margin;
-}
-.contenedor{
-  @include sizes (100%, auto)
-
-}
-
 
 .contenedor {
-  width: 100%;
-  margin: auto;
-  
-img {
-  width: 100%;
-  height: $altura;
-  object-fit: cover;
-}
-}
-
-.cr7__columna img {
-  border: solid white 10px;
+    width: 100%;
+    margin: auto;
+    width: 100%;
+    margin: auto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 .cr7__columna {
-  margin: 5px;
+    img {
+        border: solid white 10px;
+    }
+    margin: 5px;
 }
 
-.cr7 .contenedor {
-  display: grid;
+.cr7 {
+    .contenedor {
+        display: grid;
+    }
 }
-
-
-
-
-
-

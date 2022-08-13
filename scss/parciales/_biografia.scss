@@ -1,95 +1,88 @@
 /* BIOGRAFIA */
+
 .contenido-1 {
-  text-align: center;
-  margin: 100px;
-}
-
-.contenido-1 img {
-  width: 100%;
-  $altura: 100%;
-  margin: 50px;
-  padding-right: 50px;
-}
-
-.contenido-1 p {
-  font-size: small;
-  color: aliceblue;
-  text-align: center;
+    text-align: center;
+    margin: 100px;
+    img {
+        width: 100%;
+        margin: 50px;
+        padding-right: 50px;
+    }
+    p {
+        font-size: small;
+        color: aliceblue;
+        text-align: center;
+    }
 }
 
 .contenido__bio {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.contenido__bio p {
-  color: #fff;
-  font-size: 20px;
-}
-
-.contenido__bio a {
-  color: #fff;
-  list-style: none;
-  font-size: xx-large;
-}
-
-.contenido__bio a:hover {
-  color: black;
-}
-
-.contenido__bio h5 {
-  color: rgba(254, 254, 254, 0.836);
-  font-size: 30px;
-  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    p {
+        color: #fff;
+        font-size: 20px;
+    }
+    a {
+        color: #fff;
+        list-style: none;
+        font-size: xx-large;
+        &:hover {
+            color: black;
+        }
+    }
+    h5 {
+        color: rgba(254, 254, 254, 0.836);
+        font-size: 30px;
+        padding: 10px;
+    }
 }
 
 .tarjeta_1 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 380px;
 }
 
 .tarjeta_2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 90px;
 }
 
 .tarjeta_3 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 700px;
 }
 
 .tarjeta_4 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 .tarjeta_5 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 600px;
 }
 
 .tarjeta_6 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin-left: 100px;
-  padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-bottom: 50px;
 }
-
