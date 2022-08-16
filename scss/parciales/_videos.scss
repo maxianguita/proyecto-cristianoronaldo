@@ -1,32 +1,21 @@
 /* VIDEOS  */
 
-.videos {
-    height: 100%;
+.container-videos {
     display: flex;
-    justify-content: center;
-    .contenedor {
-        display: grid;
-    }
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
 }
 
-.contenedor {
-    width: auto;
-    margin: auto;
+.ratio {
+    width: 30px;
+    margin: 40px;
 }
 
-iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.videos__columna {
-    margin: 8px;
-}
-
-.videos1 {
-    h2 {
-        &:hover {
-            color: rgba(77, 63, 180, 0.247);
-        }
-    }
+.videos-- {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
 }

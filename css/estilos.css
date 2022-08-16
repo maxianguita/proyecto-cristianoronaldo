@@ -24,7 +24,7 @@
             align-items: center;
             width: 100%;
             height: 100px;
-            background-color: rgba(77, 63, 180, 0.247);
+            background-color: rgba(6, 6, 6, 0.679);
             color: #eee8e8;
             justify-content: space-between;
         }
@@ -85,7 +85,7 @@
         }
         
         footer {
-            background-color: rgba(77, 63, 180, 0.247);
+            background-color: rgba(0, 0, 0, 0.761);
             position: absolute;
             display: flex;
             justify-content: space-around;
@@ -99,7 +99,8 @@
         }
         
         footer .input1 .logo {
-            width: 120px;
+            width: 100px;
+            padding-top: 45px;
         }
         
         footer .titulo-footer {
@@ -125,6 +126,7 @@
             display: flex;
             justify-content: flex-end;
             padding: 10px;
+            padding-right: 50px;
         }
         
         footer .iconos-2 img {
@@ -243,6 +245,7 @@
             flex-wrap: nowrap;
             padding: 100px;
             margin-bottom: 10px;
+            margin: 4px;
         }
         
         .card img {
@@ -435,40 +438,24 @@
         }
         /* VIDEOS  */
         
-        .videos {
+        .container-videos {
             display: flex;
-            justify-content: space-between;
+            align-items: center;
             flex-direction: column;
+            margin: 50px;
+            padding: 50px;
         }
         
-        .contenedor {
-            width: auto;
-            margin: auto;
+        .ratio {
+            width: 30px;
+            margin: 40px;
         }
         
-        iframe {
-            width: 90%;
-            height: 300px;
-            margin-bottom: 100px;
-        }
-        
-        .h2__ {
+        .videos-- {
             color: #fff;
-            font-size: medium;
+            font-size: 30px;
             text-align: center;
-        }
-        
-        .videos__columna {
-            margin: 80px;
-            padding-left: 100px;
-        }
-        
-        .videos .contenedor {
-            display: grid;
-        }
-        
-        .videos1 h2:hover {
-            color: rgba(77, 63, 180, 0.247);
+            padding-top: 40px;
         }
         /* GALERIA DE IMAGENES  */
         
@@ -516,6 +503,12 @@
         .formulario__ {
             padding: 130px;
             color: #fff;
+        }
+        
+        .form-floating {
+            height: 50px;
+            margin: 50px;
+            color: #050505;
         }
         /* media querys */
         
@@ -622,6 +615,7 @@
             .divp p {
                 color: white;
                 font-size: initial;
+                text-align: center;
             }
             .logo {
                 display: none;
@@ -695,24 +689,18 @@
             }
         }
         
-        @media (min-width: 728px) {
-            .contenedor-videos {
+        @media screen and (max-width: 500px) {
+            .ratio {
                 display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            .videos__columna {
-                width: 110%;
-                height: 350px;
-                display: flex;
-                margin: 100px;
+                position: relative;
+                width: 100%;
+                height: 300px;
             }
         }
         
         @media screen and (max-width: 500px) {
-            .videos__columna {
+            .container-videos {
                 display: flex;
                 align-items: center;
-                padding: 0%;
             }
         }
