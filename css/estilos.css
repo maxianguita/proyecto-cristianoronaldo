@@ -17,6 +17,7 @@
             width: 100%;
             height: 100px;
         }
+        /* ffffffffffffffffffffffffffffffffffffffff */
         
         header {
             display: flex;
@@ -501,8 +502,9 @@
         /* contacto */
         
         .formulario__ {
-            padding: 130px;
-            color: #fff;
+            padding: 150px;
+            color: #eee8e8;
+            background-color: #685a5376;
         }
         
         .form-floating {
@@ -510,9 +512,20 @@
             margin: 50px;
             color: #050505;
         }
+        
+        .form_1 {
+            color: #f0e7e7;
+            text-align: center;
+            margin-top: 150px;
+        }
+        
+        .form_1 p {
+            padding: 32px;
+            font-size: 25px;
+        }
         /* media querys */
         
-        @media (min-width: 520px) {
+        @media (min-width: 400px) {
             .cr7 .contenedor {
                 grid-template-columns: repeat(2, 50%);
             }
@@ -575,7 +588,7 @@
             }
         }
         
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 420px) {
             header {
                 height: 260px;
             }
@@ -593,13 +606,15 @@
             }
             .formulario {
                 display: none;
+                display: inline-block;
+                padding: 30px;
             }
             .contenedor {
                 flex-direction: column;
             }
         }
         
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 420px) {
             footer {
                 height: 80%;
                 display: flex;
@@ -610,7 +625,7 @@
                 align-items: center;
             }
             .subtitulo h3 {
-                padding-right: 90px;
+                padding-right: 110px;
             }
             .divp p {
                 color: white;
@@ -648,7 +663,7 @@
             }
         }
         
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 420px) {
             .contenido__bio {
                 display: flex;
                 flex-direction: column;
@@ -656,17 +671,35 @@
             .contenido__bio p {
                 text-align: center;
                 font-size: 21px;
-                padding-left: 90px;
+                /* padding-left: 90px; */
             }
             .contenido__bio h5 {
                 text-align: center;
                 color: rgb(11, 59, 219) !important;
+                padding-left: 70px;
+            }
+            .tarjeta_1 {
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 50px;
+                align-items: stretch;
+                margin-top: 12px;
+                padding-left: 50px;
             }
             .tarjeta_3 {
                 display: flex;
                 flex-wrap: wrap;
                 padding-top: 50px;
                 align-items: stretch;
+                margin-top: 12px;
+            }
+            .tarjeta_4 {
+                display: flex;
+                flex-wrap: wrap-reverse;
+                padding-top: 50px;
+                align-items: stretch;
+                margin-top: 12px;
+                padding-left: 0;
             }
             .tarjeta_5 {
                 display: flex;
@@ -682,14 +715,14 @@
             }
         }
         
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 420px) {
             .contenido__bio .card-img-top {
                 height: 250px;
                 border-radius: 20%;
             }
         }
         
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 420px) {
             .ratio {
                 display: flex;
                 position: relative;
@@ -698,9 +731,29 @@
             }
         }
         
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 420px) {
             .container-videos {
                 display: flex;
                 align-items: center;
             }
+        }
+        
+        @media screen and (max-width: 420px) {
+            .formulario__ {
+                flex: content;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        
+        .formulario__ {
+            color: #eee8e8;
+            background-color: #685a5376;
+        }
+        
+        .logo-cr7 a {
+            color: #f0e7e7;
+            list-style: none;
+            text-decoration: none;
+            font-size: 25px;
         }
