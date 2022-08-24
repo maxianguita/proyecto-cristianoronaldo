@@ -1,208 +1,200 @@
-                        // medias querys
-                        @media (min-width: 400px) {
-                            .cr7 {
-                                .contenedor {
-                                    grid-template-columns: repeat(2, 50%);
-                                }
-                            }
+        // medias querys
+        // galeria
+        @media(min-width:520px) {
+            .personas .contenedor {
+                grid-template-columns: repeat(2, 50%);
+            }
+        }
+        
+        @media(min-width:728px) {
+            .personas .contenedor {
+                grid-template-columns: repeat(3, 33.3%);
+            }
+        }
+        
+        @media(min-width:1024px) {
+            .personas .contenedor {
+                grid-template-columns: repeat(4, 25%);
+            }
+            .contenedor {
+                width: 1024px;
+            }
+        }
+        
+        @media(min-width:1200px) {
+            .contenedor {
+                width: 1200px;
+            }
+        }
+        
+        //  fin galeria de imagenes
+        @media screen and (max-width: 720px) {
+            header {
+                flex-direction: column;
+                .menu {
+                    .menu-1 {
+                        li {
+                            padding: 5px;
                         }
-                        
-                        @media (min-width: 728px) {
-                            .cr7 {
-                                .contenedor {
-                                    grid-template-columns: repeat(3, 33.3%);
-                                    grid-template-columns: repeat(3, 33.3%);
-                                }
-                            }
-                            .contenido__bio {
-                                flex-direction: column;
-                                display: flex;
-                                justify-content: center;
-                            }
-                            .contenido_1 {
-                                h2 {
-                                    text-align: center;
-                                }
-                            }
-                            .tarjeta_1 {
-                                flex-direction: column;
-                                padding-top: 30px;
-                            }
+                    }
+                }
+            }
+        }
+        
+        @media screen and (max-width: 420px) {
+            header {
+                height: 220px;
+                .logo-cr7 {
+                    padding: 10px 0;
+                }
+                .menu {
+                    padding: 0 !important;
+                    .menu-1 {
+                        flex-direction: column;
+                        li {
+                            text-align: center;
                         }
-                        
-                        @media (min-width: 1024px) {
-                            .cr7 {
-                                .contenedor {
-                                    grid-template-columns: repeat(4, 25%);
-                                    grid-template-columns: repeat(4, 25%);
-                                }
-                            }
-                            .contenedor {
-                                width: 1024px;
-                                width: 1024px;
-                            }
+                    }
+                }
+            }
+            @media screen and (max-width: 420px) {
+                .formulario {
+                    display: none;
+                    display: inline-block;
+                    padding: 30px;
+                }
+                .contenedor {
+                    flex-direction: column;
+                }
+                nav {
+                    display: flex;
+                    justify-content: left;
+                    text-align: left;
+                    padding: 10px 0 px;
+                    padding-top: 10px;
+                }
+                .contenido__bio {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    width: 100%;
+                    p {
+                        text-align: center;
+                        font-size: 17px;
+                    }
+                    h5 {
+                        text-align: center;
+                        color: rgb(208, 255, 0) !important;
+                    }
+                }
+                @media screen and (max-width: 420px) {
+                    .tarjeta_1 {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 50px;
+                        align-items: stretch;
+                        margin-top: 12px;
+                        width: 100%;
+                    }
+                    .tarjeta_3 {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 50px;
+                        margin-top: 12px;
+                        width: 100%;
+                    }
+                    .tarjeta_4 {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 50px;
+                        width: 100%;
+                        margin-top: 12px;
+                        padding-left: 0;
+                    }
+                    .tarjeta_5 {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 30px;
+                        width: 100%;
+                    }
+                    .contenido_1 {
+                        h2 {
+                            text-align: center;
+                            color: rgb(253, 253, 253);
+                            padding-top: 10px;
+                            padding-bottom: 20px;
                         }
-                        
-                        @media (min-width: 1200px) {
-                            .contenedor {
-                                width: 1200px;
-                                width: 1200px;
-                            }
-                        }
-                        
-                        @media (min-width: 520px) {
-                            .cr7 {
-                                .contenedor {
-                                    grid-template-columns: repeat(2, 50%);
-                                }
-                            }
-                        }
-                        
-                        @media screen and (max-width: 720px) {
-                            header {
-                                flex-direction: column;
-                                .menu {
-                                    .menu-1 {
-                                        li {
-                                            padding: 5px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        
-                        @media screen and (max-width: 550px) {
-                            header {
-                                height: 260px;
-                                .logo-cr7 {
-                                    padding: 10px 0;
-                                }
-                                .menu {
-                                    padding: 0 !important;
-                                    .menu-1 {
-                                        flex-direction: column;
-                                        li {
-                                            text-align: center;
-                                        }
-                                    }
-                                }
-                            }
-                            .formulario {
-                                display: none;
-                                display: inline-block;
-                                padding: 30px;
-                            }
-                            .contenedor {
-                                flex-direction: column;
-                                flex-direction: column;
-                            }
-                            footer {
-                                height: 80%;
-                                display: flex;
-                                flex-direction: column;
-                            }
-                            .iconos-2 {
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            .subtitulo {
-                                h3 {
-                                    width: 100%;
-                                    text-align: center;
-                                }
-                            }
-                            .divp {
-                                p {
-                                    color: white;
-                                    font-size: initial;
-                                    text-align: center;
-                                }
-                            }
-                            .logo {
-                                display: none;
-                            }
-                            nav {
-                                display: flex;
-                                justify-content: left;
-                                text-align: left;
-                                padding: 10px 0 px;
-                                padding-top: 10px;
-                            }
-                            .contenido__bio {
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                                text-align: center;
-                                width: 100%;
-                                p {
-                                    text-align: center;
-                                    font-size: 21px;
-                                }
-                                h5 {
-                                    text-align: center;
-                                    color: rgb(11, 59, 219) !important;
-                                    padding-left: 70px;
-                                }
-                            }
-                            .tarjeta_1 {
-                                display: flex;
-                                flex-direction: column;
-                                padding-top: 50px;
-                                align-items: stretch;
-                                margin-top: 12px;
-                                width: 100%;
-                            }
-                            .tarjeta_3 {
-                                display: flex;
-                                flex-direction: column;
-                                padding-top: 50px;
-                                margin-top: 12px;
-                                width: 100%;
-                            }
-                            .tarjeta_4 {
-                                display: flex;
-                                flex-direction: column;
-                                padding-top: 50px;
-                                width: 100%;
-                                margin-top: 12px;
-                                padding-left: 0;
-                            }
-                            .tarjeta_5 {
-                                display: flex;
-                                flex-direction: column;
-                                padding-top: 30px;
-                                width: 100%;
-                            }
-                            .contenido_1 {
-                                h2 {
-                                    text-align: center;
-                                    color: rgb(253, 253, 253);
-                                    padding-top: 10px;
-                                    padding-bottom: 20px;
-                                }
-                            }
-                        }
-                        
-                        @media screen and (max-width: 420px) {
-                            .contenido__bio {
-                                .card-img-top {
-                                    height: 250px;
-                                    border-radius: 20%;
-                                }
-                            }
-                            .ratio {
-                                display: flex;
-                                position: relative;
-                                width: 100%;
-                                height: 300px;
-                            }
-                            .container-videos {
-                                display: flex;
-                                align-items: center;
-                            }
-                            .formulario__ {
-                                display: flex;
-                                flex-direction: column;
-                                width: 100%;
-                            }
-                        }
+                    }
+                }
+            }
+            @media screen and (max-width: 420px) {
+                .contenido__bio {
+                    .card-img-top {
+                        width: 100%;
+                        border-radius: 20%;
+                    }
+                }
+                .ratio {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    height: 300px;
+                }
+                .container-videos {
+                    display: flex;
+                    align-items: center;
+                }
+                .formulario__ {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    padding: 30px;
+                }
+            }
+        }
+        /*MEDIA QUERY*/
+        
+        @media (max-width: 768px) {
+            .footer-container {
+                padding: 2rem;
+                flex-direction: column;
+            }
+            .footer-content-container {
+                width: 100%;
+                padding: 2rem 0;
+                border-bottom: 1px solid #ca1f1f;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-content-container:nth-of-type(1) {
+                align-items: center;
+            }
+            .footer-content-container:nth-of-type(3) {
+                border-bottom: none;
+                padding-bottom: 0;
+            }
+            .footer-menus {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                border-bottom: 1px solid #e42727;
+            }
+            .footer-menus .footer-content-container:nth-of-type(1) {
+                width: 45%;
+                align-items: flex-start;
+                border-bottom: none;
+            }
+            .footer-menus .footer-content-container:nth-of-type(2) {
+                width: 45%;
+                align-items: flex-start;
+                border-bottom: none;
+            }
+            .footer-content-container img {
+                align-items: center;
+            }
+            .footer-menus {
+                display: none;
+            }
+        }
